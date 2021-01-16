@@ -1,5 +1,5 @@
-# ------------------------------------------------
-# Copy from apps by adv-it
+# -------------------------------------------
+# Processed by me
 #
 # Version      Date           Info
 # 1.0          13-Jen-2021    Initial Version
@@ -11,10 +11,10 @@ application = Flask(__name__)
 @application.route("/")
 def root():
     return render_template("index.html")
-
+# 
 @application.route("/hello")
 def index():
-    return "Hello World from Flask App Page.<b> v1.0"
+  return "Hello World from Flask App Page.<b> v1.0"
 
 #--------Main------------------
 if __name__ == "__main__":
