@@ -1,8 +1,23 @@
-const express = require('express');
-const app = express();
-const port = 8080;
+const http = require("http");
+const fs = require("fs");
+  
+http.createServer(function(request, response){
+      
+    console.log("from url:", request.url);
+    // geting url from /
+    const filePath = "templates/" + request.url.substr(1);
 
-app.get('/', (req, res) => res.send("/index.html"));
-
-app.listen(port);
-console.log(`App running on http://localhost:${port}`);
+    fs.readFile(filePath, function(error, data){
+              
+        if(error){
+                  
+            response.statusCode = 404;
+            response.end("Resourse not found!");
+        }   
+        else{
+            response.end(data);
+        }
+    });
+}).listen(8081, function(){
+    console.log("Server started at 8081");
+});
