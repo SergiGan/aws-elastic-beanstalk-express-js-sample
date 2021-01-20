@@ -6,7 +6,7 @@ const port = 3000;		           // define a handler for the "/" route
 
 app.use(express.static(__dirname + "/templates"));
  
-app.use("/", (req, res, next) =>  // used static page
+app.use("/", (req, res) =>  // used static page
      
     res.send("index.html, help.html"));
  
