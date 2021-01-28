@@ -2,7 +2,7 @@ const express = require('express');   // conected to express
 
 const app = express();                   // create object app
 
-const port = 80;		           // define a handler for the "/" route
+const port = 8080;		           // define a handler for the "/" route
 
 const today = new Date();
 const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
@@ -15,6 +15,7 @@ app.get("/templates", (req, res, next) =>  // used static page
      
     res.send("index.html, help.html"));
  
+
 app.listen(port);
 
 console.log(`App started on http://localhost:`, 'on', port, ',' , dateTime ); // ! or simple use full Date()
