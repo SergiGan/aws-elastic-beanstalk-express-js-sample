@@ -2,9 +2,9 @@
 #
 Status of Last Deployment:<br>
 
-<img src="https://img.shields.io/badge/AWS--Elastic--Beanstalk--Node.js--Sample--App-passing-green/main"><br>
+<img src="https://img.shields.io/badge/aws--elastic--beanstalk--express--js--sample-passing-green/main"><br>
 
-<img src="https://img.shields.io/github/checks-status/SergiGan/aws-elastic-beanstalk-express-js-sample/main?style=social"><br>
+#<img src="https://img.shields.io/github/checks-status/SergiGan/aws-elastic-beanstalk-express-js-sample/main?style=social"><br>
 
 
 AWS Elastic Beanstalk Node.js Sample App
