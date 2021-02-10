@@ -2,7 +2,7 @@ const express = require('express');   // conected to express on port 3000
 
 const app = express();                   // create object app
 
-const port = 8081;		           // define a handler for the "/" route  - 8080
+const port = 8080;		           // define a handler for the "/" route  - 8080
 //test to manual approve 
 const today = new Date();
 const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
