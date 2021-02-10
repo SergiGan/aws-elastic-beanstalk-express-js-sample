@@ -4,8 +4,6 @@ Status of Last Deployment:<br>
 
 <img src="https://img.shields.io/badge/aws--elastic--beanstalk--express--js--sample-passing-green/main"><br>
 
-#<img src="https://img.shields.io/github/checks-status/SergiGan/aws-elastic-beanstalk-express-js-sample/main?style=social"><br>
-
 
 AWS Elastic Beanstalk Node.js Sample App
 This repository contains a sample Node.js web application built using [Express](https://expressjs.com/), meant to be used as part of the AWS DevOps Learning Path.
