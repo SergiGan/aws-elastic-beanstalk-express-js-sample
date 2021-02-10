@@ -1,5 +1,5 @@
 # AWS Elastic Beanstalk Node.js Sample App
-
+#
 Status of Last Deployment:<br>
 
 <img src="https://img.shields.io/github/checks-status/SergiGan/aws-elastic-beanstalk-express-js-sample/main"><br>
